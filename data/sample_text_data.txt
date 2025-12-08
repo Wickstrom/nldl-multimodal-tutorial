@@ -1,0 +1,17 @@
+This is a sample text file for multimodal learning experiments.
+
+Multimodal learning combines information from multiple sources or modalities.
+Common modalities include text, images, audio, and video.
+
+Example sentences for text processing:
+- The cat is sitting on the mat.
+- A beautiful sunset over the ocean.
+- Machine learning models process data efficiently.
+- Natural language understanding is a key component of AI.
+- Computer vision enables machines to interpret visual information.
+
+These sentences can be used for:
+1. Text embedding experiments
+2. Sentiment analysis
+3. Text-image matching
+4. Caption generation practice

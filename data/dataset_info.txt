@@ -1,0 +1,49 @@
+NLDL Multimodal Tutorial - Dataset Information
+
+This folder contains synthetic sample data for educational purposes.
+
+FILES:
+-------
+1. sample_text_data.txt
+   - Contains example sentences for text processing
+   - Use for text embedding and NLP experiments
+   - Format: Plain text
+
+2. image_labels.csv
+   - Sample image metadata and labels
+   - Contains image IDs, labels, categories, and descriptions
+   - Format: CSV with headers
+   - Columns: image_id, label, category, description
+
+3. README.md
+   - This file
+   - Contains information about the data folder structure
+
+RECOMMENDED DATASETS:
+--------------------
+For more comprehensive experiments, consider downloading:
+
+- COCO (Common Objects in Context)
+  - 330K images with captions
+  - 80 object categories
+  - http://cocodataset.org/
+
+- Flickr30k
+  - 31K images
+  - 158K captions
+  - http://shannon.cs.illinois.edu/DenotationGraph/
+
+- Visual Genome
+  - 108K images
+  - Scene graphs, Q&A pairs
+  - https://visualgenome.org/
+
+- Conceptual Captions
+  - 3.3M image-caption pairs
+  - https://ai.google.com/research/ConceptualCaptions/
+
+USAGE NOTES:
+------------
+- These files are referenced in the tutorial notebooks
+- You can replace them with your own datasets
+- Maintain similar file structures for compatibility
