@@ -6,14 +6,14 @@ This repository contains notebooks and example code for a hands-on multimodal le
 ## Tutorial Steps
 
 ### Step 1: Open the Notebook in Google Colab
-Click the "Open in Colab" badge above to launch the tutorial notebook in Google Colab.
+[![Open the notebook in Google Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Wickstrom/nldl-multimodal-tutorial/blob/main/multi_modal_tutorial.ipynb)
 
-![Open in Colab](images/step1_colab.png)
+
 
 ### Step 2: Run the Setup Cells
 Execute the first few cells to install dependencies and download the dataset.
 
-![Setup cells](images/step2_setup.png)
+![Setup cells](random_samples.png)
 
 
 
