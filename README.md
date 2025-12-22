@@ -22,6 +22,14 @@ This repository contains notebooks and example code for a hands-on multimodal le
 - Must run all cells in order. 
 - Fill in the missing code for fusing data:<img src="images/run_code_2.png" width="300">
 
+### Step 4: Generate Predictions
+
+- Generate predictions: <img src="images/generate_preds_1.png" width="30%">
+- Predictions are stored here: <img src="images/generate_preds_2.png" width="30%">
+- Prediction appear here: <img src="images/generate_preds_3.png" width="30%" alt="Predictions saved">
+- Download predictions and upload here: 
+
+
 ## Description of task
 
 You are working as a machine learning engineer in an international post sorting company, and your boss
