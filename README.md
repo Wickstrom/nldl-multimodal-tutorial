@@ -12,12 +12,8 @@ This repository contains notebooks and example code for a hands-on multimodal le
 
 ### Step 2: Enable GPU support
 
-- Click on "Edit" in the top menu
-    <img src="images/enable_gpu_1.png" width="400" alt="Runtime menu">
-- Select "Change runtime type"
-  ![Runtime menu](images/enable_gpu_2.png)
-- Choose "T4 GPU" from the Hardware accelerator dropdown and click "Save"
-  ![Runtime menu](images/enable_gpu_3.png)
+- Click on "Edit" in the top menu: <img src="images/enable_gpu_1.png" width="2000" alt="Runtime menu">
+- Select "Change runtime type": <img src="images/enable_gpu_1.png" width="200" alt="Runtime menu">
 
 
 
