@@ -10,10 +10,15 @@ This repository contains notebooks and example code for a hands-on multimodal le
 
 
 
-### Step 2: Run the Setup Cells
-Execute the first few cells to install dependencies and download the dataset.
+### Step 2: Enable GPU support
 
-![Setup cells](random_samples.png)
+- Click on "Runtime" in the top menu
+  ![Runtime menu](random_samples.png)
+- Select "Change runtime type"
+  ![Change runtime type](random_samples.png)
+- Choose "T4 GPU" from the Hardware accelerator dropdown and click "Save"
+  ![Select GPU](random_samples.png)
+
 
 
 
