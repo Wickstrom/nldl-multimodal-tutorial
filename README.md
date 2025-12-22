@@ -12,14 +12,12 @@ This repository contains notebooks and example code for a hands-on multimodal le
 
 ### Step 2: Enable GPU support
 
-- Click on "Runtime" in the top menu
-  ![Runtime menu](random_samples.png)
+- Click on "Edit" in the top menu
+  ![Runtime menu](images/enable_gpu_1.png)
 - Select "Change runtime type"
-  ![Change runtime type](random_samples.png)
+  ![Runtime menu](images/enable_gpu_2.png)
 - Choose "T4 GPU" from the Hardware accelerator dropdown and click "Save"
-  ![Select GPU](random_samples.png)
-
-
+  ![Runtime menu](images/enable_gpu_3.png)
 
 
 
@@ -42,4 +40,4 @@ training. In addition, you also collect an independent set of 5859 pairs of imag
 
 The figure below shows pairs of samples from the provided dataset. For each sample, noise is added such that one modality is more noisy than the other, or both are slightly noisy. This means that there is al limit to how well the model can perform using only one modality. However, if both modalities are processed simultaneously, there should always be a clean view that has the necessary information to make a prediction.
 
-![Random samples from the dataset](random_samples.png)
+![Random samples from the dataset](images/random_samples.png)
