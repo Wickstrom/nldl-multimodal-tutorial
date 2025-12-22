@@ -14,9 +14,13 @@ This repository contains notebooks and example code for a hands-on multimodal le
 
 - Click on "Edit" in the top menu: <img src="images/enable_gpu_1.png" width="300">
 - Select "Change runtime type": <img src="images/enable_gpu_2.png" width="300">
-- Select a GPU under "Hardware accelerator". This image can look different for you: <img src="images/enable_gpu_3.png" width="300">
+- Select a GPU under "Hardware accelerator":<img src="images/enable_gpu_3.png" width="300">
 
+### Step 3: Run code and fill in missing fusion part
 
+- Run code by clicking this symbol: <img src="images/run_code_1.png" width="300">
+- Must run all cells in order. 
+- Fill in the missing code for fusing data:<img src="images/run_code_2.png" width="300">
 
 ## Description of task
 
