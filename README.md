@@ -8,7 +8,7 @@ This repository contains notebooks and example code for a hands-on multimodal le
 ### Step 1: Open the Notebook in Google Colab
 [![Open the notebook in Google Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Wickstrom/nldl-multimodal-tutorial/blob/main/multi_modal_tutorial.ipynb)
 
-
+---
 
 ### Step 2: Enable GPU support
 
