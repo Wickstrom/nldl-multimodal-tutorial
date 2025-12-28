@@ -12,26 +12,55 @@ This repository contains notebooks and example code for a hands-on multimodal le
 
 ### Step 2: Enable GPU support
 
-- Click on "Edit" in the top menu: <img src="images/enable_gpu_1.png" width="300" style="float: right;">
-- Select "Change runtime type": <img src="images/enable_gpu_2.png" width="300">
-- Select a GPU under "Hardware accelerator":<img src="images/enable_gpu_3.png" width="300">
+<div style="text-align: center;">
+  <p>Click on "Edit" in the top menu:</p>
+  <img src="images/enable_gpu_1.png" width="300">
+</div>
+<div style="text-align: center;">
+  <p>Select "Change runtime type":</p>
+  <img src="images/enable_gpu_2.png" width="300">
+</div>
+<div style="text-align: center;">
+  <p>Select a GPU under "Hardware accelerator":</p>
+  <img src="images/enable_gpu_3.png" width="300">
+</div>
 
 ---
 
 ### Step 3: Run code and fill in missing fusion part
 
-- Run code by clicking this symbol: <img src="images/run_code_1.png" width="300">
-- Must run all cells in order. 
-- Fill in the missing code for fusing data:<img src="images/run_code_2.png" width="300">
+<div style="text-align: center;">
+  <p>Run code by clicking this symbol (remember to run all cells from the top down):</p>
+  <img src="images/run_code_1.png" width="300">
+</div>
+<div style="text-align: center;">
+  <p>Fill in the missing code for fusing data:</p>
+  <img src="images/run_code_2.png" width="300">
+</div>
 
 ---
 
 ### Step 4: Generate Predictions
 
-- Generate predictions: <img src="images/generate_preds_1.png" width="30%">
-- Predictions are stored here: <img src="images/generate_preds_2.png" width="30%">
-- Prediction appear here: <img src="images/generate_preds_3.png" width="30%" alt="Predictions saved">
-- Download predictions and upload here: 
+<div style="text-align: center;">
+  <p>Generate predictions:</p>
+  <img src="images/generate_preds_1.png" width="30%">
+</div>
+<div style="text-align: center;">
+  <p>Predictions are stored here:</p>
+  <img src="images/generate_preds_2.png" width="30%">
+</div>
+<div style="text-align: center;">
+  <p>Predictions appear here:</p>
+  <img src="images/generate_preds_3.png" width="30%" alt="Predictions saved">
+</div>
+<div style="text-align: center;">
+  <p>Download predictions and upload <a href="https://www.kaggle.com/t/0198c654889a49c2b36d772e3175e9a9" target="_blank">here.</a></p>
+</div>
+
+### Step 4: Submit predictions on Kaggle:
+
+- fill
 
 ---
 
