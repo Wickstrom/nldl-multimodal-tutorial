@@ -84,3 +84,19 @@ training. In addition, you also collect an independent set of 5859 pairs of imag
 The figure below shows pairs of samples from the provided dataset. For each sample, noise is added such that one modality is more noisy than the other, or both are slightly noisy. This means that there is al limit to how well the model can perform using only one modality. However, if both modalities are processed simultaneously, there should always be a clean view that has the necessary information to make a prediction.
 
 ![Random samples from the dataset](images/random_samples.png)
+
+## Hint for fusion task
+
+For those who lack experience with deep learning and Pytorch, it might be challenging to get started with the task. The collapsable section below gives a hint for how to solve the task. If you are somewhat familiar with deep learning and Pytorch, try to solve the task before you look at the hint!
+
+<details>
+  <summary>Click to expand: Hint for fusion task </summary>
+  
+  This is the hidden content inside the collapsible section.
+  You can use **Markdown** formatting here, including:
+  
+  *   Lists
+  *   Code blocks
+  *   And more!
+</details>
+
