@@ -60,7 +60,7 @@ This repository contains notebooks and example code for a hands-on multimodal le
 
 ### Step 4: Submit predictions on Kaggle:
 
-- fill
+- [Link to Kaggle competition](https://www.kaggle.com/t/0198c654889a49c2b36d772e3175e9a9)
 
 ---
 
