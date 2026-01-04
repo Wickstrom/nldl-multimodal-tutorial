@@ -92,11 +92,30 @@ For those who lack experience with deep learning and Pytorch, it might be challe
 <details>
   <summary>Click to expand: Hint for fusion task </summary>
   
-  This is the hidden content inside the collapsible section.
-  You can use **Markdown** formatting here, including:
+  The simples possible solution to this task is to fuse the features from the audio and image data with addition. The "Define model"-block of the provided code could be changed like this:
   
-  *   Lists
-  *   Code blocks
-  *   And more!
+  ```python
+class MultiModalClassifier(nn.Module):
+    "Multi-Modal Classifier combining Image and Audio Encoders"
+    def __init__(self, image_encoder: nn.Module, audio_encoder: nn.Module):
+        super(MultiModalClassifier, self).__init__()
+        self.image_encoder = image_encoder
+        self.audio_encoder = audio_encoder
+        
+        self.output_layer = nn.Linear(100, 10)
+
+    def forward(self, image: torch.Tensor, audio: torch.Tensor) -> torch.Tensor:
+        img_features = self.image_encoder(image)
+        aud_features = self.audio_encoder(audio)
+        fused_features = self.fusion_module(img_features, aud_features)
+        output = self.output_layer(fused_features)
+
+        return output
+
+    def fusion_module(self, img_features: torch.Tensor, aud_features: torch.Tensor) -> torch.Tensor:
+        #combined = this part must still be filled in. Simplest solution, add features together.
+        return combined
+
+  ```
 </details>
 
